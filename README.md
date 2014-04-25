@@ -13,3 +13,7 @@ Now in QT, go to edit, find your project, delete all the useless files except th
 Also, all this code is documented, go to examples and find the calculator app, open it, and go to edit and the documentation should be on the right
 
 One awesome thing about github is that even if two people are both working on something at the same time, and they both commit, without each other's edits, both edits will show up in the final code as long as they didnt edit the same lines.
+
+ALSO: in your PRO file, have these lines point to multimedia
+MOBILITY = multimedia
+QT       += multimedia
