@@ -8,4 +8,5 @@ int main(int argc, char *argv[])
     Calculator calc;
     calc.show();
     return app.exec();
+                //HELLO JIAN
 }
