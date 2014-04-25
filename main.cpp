@@ -1,3 +1,4 @@
+//OUR PROJECT
 #include <QApplication>
 #include "calculator.h"
 
