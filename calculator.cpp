@@ -3,8 +3,11 @@
 #include <math.h>
 #include "button.h"
 #include "calculator.h"
-
+#include "QMediaPlayer"
+#include "QSound"
 //! [0]
+QMediaPlayer* player=new QMediaPlayer;
+
 Calculator::Calculator(QWidget *parent)
     : QWidget(parent)
 {
@@ -119,6 +122,8 @@ void Calculator::unaryOperatorClicked()
     double result = 0.0;
 
     if (clickedOperator == tr("Sqrt")) {
+        QSound::play("/Users/Jian/Downloads/ale.wav");
+
         if (operand < 0.0) {
             abortOperation();
             return;
@@ -340,8 +345,11 @@ void Calculator::abortOperation()
 bool Calculator::calculate(double rightOperand, const QString &pendingOperator)
 {
     if (pendingOperator == tr("+")) {
+        QSound::play("/Users/Jian/Downloads/test1.wav");
         sumSoFar += rightOperand;
     } else if (pendingOperator == tr("-")) {
+        QSound::play("/Users/Jian/Downloads/Trippy.wav");
+
         sumSoFar -= rightOperand;
     } else if (pendingOperator == tr("\303\227")) {
         factorSoFar *= rightOperand;
