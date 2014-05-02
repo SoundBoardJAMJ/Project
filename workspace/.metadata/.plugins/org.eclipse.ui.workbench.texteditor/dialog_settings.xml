@@ -2,9 +2,9 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="124" key="DIALOG_Y_ORIGIN"/>
+		<item value="131" key="DIALOG_Y_ORIGIN"/>
 		<item value="380" key="DIALOG_HEIGHT"/>
-		<item value="-138" key="DIALOG_X_ORIGIN"/>
+		<item value="384" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
@@ -13,11 +13,23 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="Action" key="selection"/>
+		<item value="&quot;#AA555555&quot;" key="selection"/>
 		<list key="findhistory">
-			<item value="action"/>
+			<item value="&quot;#AA999999&quot;"/>
+			<item value="&quot;#AA777777&quot;"/>
+			<item value="&quot;#77777777&quot;"/>
+			<item value="&quot;#88777777&quot;"/>
+			<item value="&quot;#88888888&quot;"/>
+			<item value="#88999999"/>
+			<item value="88"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&quot;#AA555555&quot;"/>
+			<item value="&quot;#AA999999&quot;"/>
+			<item value="&quot;#AA777777&quot;"/>
+			<item value="&quot;#77777777&quot;"/>
+			<item value="&quot;#88777777&quot;"/>
+			<item value="#88888888"/>
 		</list>
 	</section>
 </section>
