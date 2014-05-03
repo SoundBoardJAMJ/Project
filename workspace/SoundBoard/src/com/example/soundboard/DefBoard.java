@@ -8,6 +8,7 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.CheckBox;
 
 public class DefBoard extends Activity {
 
@@ -497,6 +498,102 @@ public class DefBoard extends Activity {
     	  }
 		  
 	  }
+	  @Override
+	  public void onUserLeaveHint()
+	  {
+    	  if (media1loop != null) {
+	    	  CheckBox checkBox1 = (CheckBox) findViewById(R.id.checkBox1);
+	          checkBox1.setChecked(false);
+	          View test1 = (View) findViewById(R.id.checkBox1);
+	          TogOnClick(test1);
+    	  }
+    	  if (media2loop != null) {
+	    	  CheckBox checkBox2 = (CheckBox) findViewById(R.id.checkBox2);
+	          checkBox2.setChecked(false);
+	          View test2 = (View) findViewById(R.id.checkBox2);
+	          TogOnClick(test2);
+    	  }
+    	  if (media3loop != null) {
+	    	  CheckBox checkBox3 = (CheckBox) findViewById(R.id.checkBox3);
+	          checkBox3.setChecked(false);
+	          View test3 = (View) findViewById(R.id.checkBox3);
+	          TogOnClick(test3);
+    	  }
+    	  if (media4loop != null) {
+	    	  CheckBox checkBox4 = (CheckBox) findViewById(R.id.checkBox4);
+	          checkBox4.setChecked(false);
+	          View test4 = (View) findViewById(R.id.checkBox4);
+	          TogOnClick(test4);
+    	  }
+    	  if (media5loop != null) {
+	    	  CheckBox checkBox5 = (CheckBox) findViewById(R.id.checkBox5);
+	          checkBox5.setChecked(false);
+	          View test5 = (View) findViewById(R.id.checkBox5);
+	          TogOnClick(test5);
+    	  }
+    	  if (media6loop != null) {
+	    	  CheckBox checkBox6 = (CheckBox) findViewById(R.id.checkBox6);
+	          checkBox6.setChecked(false);
+	          View test6 = (View) findViewById(R.id.checkBox6);
+	          TogOnClick(test6);
+    	  }
+    	  if (media7loop != null) {
+	    	  CheckBox checkBox7 = (CheckBox) findViewById(R.id.checkBox7);
+	          checkBox7.setChecked(false);
+	          View test7 = (View) findViewById(R.id.checkBox7);
+	          TogOnClick(test7);
+    	  }
+    	  if (media8loop != null) {
+	    	  CheckBox checkBox8 = (CheckBox) findViewById(R.id.checkBox8);
+	          checkBox8.setChecked(false);
+	          View test8 = (View) findViewById(R.id.checkBox8);
+	          TogOnClick(test8);
+    	  }
+    	  if (media9loop != null) {
+	    	  CheckBox checkBox9 = (CheckBox) findViewById(R.id.checkBox9);
+	          checkBox9.setChecked(false);
+	          View test9 = (View) findViewById(R.id.checkBox9);
+	          TogOnClick(test9);
+    	  }
+    	  if (media10loop != null) {
+	    	  CheckBox checkBox10 = (CheckBox) findViewById(R.id.checkBox10);
+	          checkBox10.setChecked(false);
+	          View test10 = (View) findViewById(R.id.checkBox10);
+	          TogOnClick(test10);
+    	  }
+    	  if (media11loop != null) {
+	    	  CheckBox checkBox11 = (CheckBox) findViewById(R.id.checkBox11);
+	          checkBox11.setChecked(false);
+	          View test11 = (View) findViewById(R.id.checkBox11);
+	          TogOnClick(test11);
+    	  }
+    	  if (media12loop != null) {
+	    	  CheckBox checkBox12 = (CheckBox) findViewById(R.id.checkBox12);
+	          checkBox12.setChecked(false);
+	          View test12 = (View) findViewById(R.id.checkBox12);
+	          TogOnClick(test12);
+    	  }
+    	  if (media13loop != null) {
+	    	  CheckBox checkBox13 = (CheckBox) findViewById(R.id.checkBox13);
+	          checkBox13.setChecked(false);
+	          View test13 = (View) findViewById(R.id.checkBox13);
+	          TogOnClick(test13);
+    	  }
+    	  if (media14loop != null) {
+	    	  CheckBox checkBox14 = (CheckBox) findViewById(R.id.checkBox14);
+	          checkBox14.setChecked(false);
+	          View test14 = (View) findViewById(R.id.checkBox14);
+	          TogOnClick(test14);
+    	  }
+    	  if (media15loop != null) {
+	    	  CheckBox checkBox15 = (CheckBox) findViewById(R.id.checkBox15);
+	          checkBox15.setChecked(false);
+	          View test15 = (View) findViewById(R.id.checkBox15);
+	          TogOnClick(test15);
+    	  }
+		  
+	  }
+	  
 }
 
 
